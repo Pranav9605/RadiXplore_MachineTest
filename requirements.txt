@@ -1,0 +1,8 @@
+spacy~=3.5
+pandas
+sentence-transformers
+faiss-cpu
+requests
+tqdm
+PyMuPDF
+pdfplumber

@@ -1,0 +1,21 @@
+RadiXplore Evaluation Report
+============================
+
+Pipeline Output Summary
+--------------------------
+Total Mentions Extracted  : 168
+Unique Project Names      : 30
+Mentions with Coordinates : 142
+Mentions without Coords   : 26
+Success Rate              : 84.52%
+
+ Interpretation:
+- The NER model is successfully identifying project mentions across noisy documents.
+- Over 84% of extracted mentions were resolved to geographic coordinates.
+- The system gracefully handles unknowns using Gemini fallback or null responses.
+- Confidence scores can be added for both NER and LLM reasoning stages.
+
+Output File:
+- Located at `output/results.jsonl`
+- Validated to be structurally consistent with challenge specification.
+
