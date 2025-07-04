@@ -1,5 +1,3 @@
-    # Mining Project Intelligence System
-
 This repository contains a complete pipeline for identifying mining project names from geological PDFs and inferring their approximate geographic coordinates.
 
 ---
